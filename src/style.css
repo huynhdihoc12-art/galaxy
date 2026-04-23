@@ -3,3 +3,23 @@
 @import './css/desktop.css';
 @import './css/style.css';
 @import './css/animation.css';
+
+/* Security Styles */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input, textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+img {
+    pointer-events: none;
+}
+
