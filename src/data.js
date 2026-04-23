@@ -2,12 +2,12 @@
 const companyInfo = {
     bgImage: "/FileUpload/Images/bg2_2.jpg",
     sideImage: "/Content/theme_btq/pictures/background/bg2.jpg",
-    titleBold: "Mộc Mộc",
-    titleNormal: " Vietnam",
+    titleBold: "MocMoc",
+    titleNormal: "Door",
     greeting: "Kính gửi Quý khách hàng,",
     paragraphs: [
-        "MỘC MỘC Việt Nam cung cấp giải pháp toàn diện về cửa và nội thất, phân phối đa kênh tại thị trường Việt Nam với 2 thương hiệu MỘC MỘC Door, MỘC MỘC Concept.",
-        "Hiện tại, MỘC MỘC Việt Nam vận hành nhà máy diện tích 30.000m2 ứng dụng dây truyền công nghệ Nhật Bản, tạo ra năng lực khả cung hơn 350,000m2 sản phẩm cửa/năm và 200,000m2 sản phẩm nội thất cho thị trường Việt Nam..."
+        "MỘC MỘC Real Estate là đơn vị tiên phong trong lĩnh vực phát triển và phân phối các dự án bất động sản trung và cao cấp, mang lại không gian sống đẳng cấp cho cộng đồng.",
+        "Với danh mục dự án đa dạng từ căn hộ hạng sang đến các khu đô thị sinh thái, chúng tôi cam kết mang lại giá trị bền vững và cơ hội đầu tư sinh lời vượt trội cho khách hàng."
     ],
     detailLink: "/gioi-thieu-ve-galaxy-door/gioi-thieu-1.html"
 };
@@ -21,7 +21,7 @@ if (infoHome) {
     const infoContent = infoHome.querySelector(".info-content");
     if (infoContent) {
         infoContent.innerHTML = `
-            <p class="info-content-title"><strong>${companyInfo.titleBold}</strong>${companyInfo.titleNormal}</p>
+            <p class="info-content-title"><strong>${companyInfo.titleBold}</strong><span class="small-title">${companyInfo.titleNormal}</span></p>
             <div class="box-info">
                 <p><em>${companyInfo.greeting}</em></p>
                 ${companyInfo.paragraphs.map(p => `<p>${p}</p>`).join('')}
@@ -32,53 +32,52 @@ if (infoHome) {
         `;
     }
 
-    const imgInfo = infoHome.querySelector(".img-info img");
-    if (imgInfo) imgInfo.src = companyInfo.sideImage;
+    // Side image đã được chuyển thành video trong index.html
 }
 
 // Dữ liệu "Banner Slide" - Section 01
 const bannerSlides = [
     {
-        image: "/FileUpload/Images/thesonggalaxydoorsvungtau_5.JPG",
-        titleNormal: "Nhà đẹp ",
-        titleBold: "từ cửa",
-        description: "Trong kiến trúc hiện đại, hạng mục cửa giữ vai trò quan trọng và đồng nhất với kiến trúc tổng thể, các vị trí cửa như một dòng năng lượng chảy không ngừng trong tòa nhà."
+        image: "/FileUpload/Images/pexels-phamthe-32755065.jpg",
+        titleNormal: "Không gian ",
+        titleBold: "Thượng lưu",
+        description: "Kiến trúc hiện đại hòa quyện cùng thiên nhiên, mang đến trải nghiệm sống đẳng cấp và tinh tế cho cộng đồng cư dân tinh hoa."
     },
     {
-        image: "/FileUpload/Images/bg13.jpg",
-        titleNormal: "Khả cung ",
-        titleBold: "vượt trội",
-        description: "MỘC MỘC Door vận hành 01 nhà máy diện tích 2ha, hơn 300 nhân sự, tạo ra năng lực khả cung hơn 350.000 m2 sản phẩm/năm cho thị trường Việt Nam và phụ cận."
+        image: "/FileUpload/Images/pexels-thejourneyofframes-25920939.jpg",
+        titleNormal: "Vị trí ",
+        titleBold: "Tâm điểm",
+        description: "Tọa lạc tại vị trí đắc địa, dễ dàng kết nối mọi tiện ích huyết mạch, kiến tạo nhịp sống năng động ngay giữa lòng đô thị."
     },
     {
-        image: "/FileUpload/Images/galaxydoorsgalaxyconceptbannerhome2025_5.jpg",
-        titleNormal: "Giải pháp ",
-        titleBold: "toàn diện",
-        description: "MỘC MỘC Door là đơn vị sản xuất, cung cấp giải pháp toàn diện về cửa và thi công uy tín hàng đầu Việt Nam."
+        image: "/FileUpload/Images/pexels-lethangmr-8100034.jpg",
+        titleNormal: "Tiện ích ",
+        titleBold: "Hoàn hảo",
+        description: "Tận hưởng hệ sinh thái tiện ích đa dạng, từ hồ bơi, công viên đến trung tâm thương mại, chăm sóc trọn vẹn cuộc sống gia đình bạn."
     },
     {
-        image: "/FileUpload/Images/galaxydoorszalo_1280x720px.jpg",
-        titleNormal: "Phân phối ",
-        titleBold: "bán lẻ",
-        description: "MỘC MỘC Door trực tiếp sản xuất và thi công dự án xây dựng trọng điểm, thúc đẩy phân phối bán lẻ thông qua hơn 100 Đại lý trên toàn quốc."
+        image: "/FileUpload/Images/pexels-ngan-nguy-n-489932883-35662840.jpg",
+        titleNormal: "Cơ hội ",
+        titleBold: "Sinh lời",
+        description: "Bất động sản có tiềm năng tăng giá vượt trội, là lựa chọn vàng cho các nhà đầu tư thông thái tìm kiếm giá trị bền vững theo thời gian."
     },
     {
-        image: "/FileUpload/Images/greendiamondgalaxydoorsbannerwebgalaxy.JPG",
-        titleNormal: "Thi công ",
-        titleBold: "Dự án",
-        description: "MỘC MỘC Door có gần 20 năm kinh nghiệm cung cấp giải pháp toàn diện về cửa và thi công hơn 60% các dự án xây dựng lớn tại Việt Nam."
+        image: "/FileUpload/Images/pexels-skydesign-1346715-15596503.jpg",
+        titleNormal: "Kiến trúc ",
+        titleBold: "Đột phá",
+        description: "Mỗi không gian là một tác phẩm nghệ thuật với thiết kế mở, tối ưu ánh sáng tự nhiên, tạo nên sự thông thoáng và sang trọng tuyệt đối."
     },
     {
-        image: "/FileUpload/Images/galaxydoorsgalaxyconceptbannerhome2025_1.jpg",
-        titleNormal: "Dịch vụ ",
-        titleBold: "xuất sắc",
-        description: "MỘC MỘC Door không chỉ đầu tư vào chất lượng sản phẩm, giải pháp đồng bộ, cam kết sứ mệnh thương hiệu mà còn tập trung phát triển khách hàng, mở rộng thị trường để chuỗi cung ứng cùng phát triển bền vững!"
+        image: "/FileUpload/Images/pexels-minan1398-1042594.jpg",
+        titleNormal: "An ninh ",
+        titleBold: "An tâm",
+        description: "Hệ thống bảo vệ đa lớp cùng quy trình quản lý chuyên nghiệp, đảm bảo sự riêng tư và an toàn tối đa cho tổ ấm của bạn."
     },
     {
-        image: "/FileUpload/Images/thestandarbinhduonggalaxydoors_6.JPG",
-        titleNormal: "Chất lượng ",
-        titleBold: "đồng bộ",
-        description: "Tất cả các sản phẩm cửa chất liệu thép của MỘC MỘC Door đã được Cục Cảnh sát Phòng cháy Chữa cháy kiểm định và xác nhận đạt tiêu chuẩn chống cháy TCXDVN 368;2007 tương đương với tiêu chuẩn Anh BS EN 1634-2000."
+        image: "/FileUpload/Images/pexels-anaussieinvietnam-21230649.jpg",
+        titleNormal: "Mộc Mộc ",
+        titleBold: "Real Estate",
+        description: "Đơn vị phát triển bất động sản uy tín, cam kết mang đến những sản phẩm chất lượng và giá trị sống đích thực cho khách hàng."
     }
 ];
 
@@ -103,33 +102,33 @@ if (slidePics) {
 // Dữ liệu danh mục "Các dòng sản phẩm"
 const categories = [
     {
-        image: "/FileUpload/Images/galaxydoorstradionalavatarhuynh4canhkinh_1.jpg",
-        name: "CỬA NHÀ PHỐ, BIỆT THỰ",
+        image: "/FileUpload/Images/hungquach679png-house-7310177_1920.jpg",
+        name: "Residential",
         link: "/cac-dong-san-pham/cua-nha-pho-biet-thu.html"
     },
     {
-        image: "/FileUpload/Images/2_2.png",
-        name: "CỬA CĂN HỘ THÉP/HGF/GỖ",
+        image: "/FileUpload/Images/hathanhphu7-building-5671184_1920.jpg",
+        name: "Commercial",
         link: "/cac-dong-san-pham/cua-can-ho-thephgfgo.html"
     },
     {
-        image: "/FileUpload/Images/galaxylaminatedoor_cualaminate.jpg",
-        name: "CỬA THÔNG PHÒNG WPC/ABS/GỖ",
+        image: "/FileUpload/Images/fonthipward-maldives-262511_1920.jpg",
+        name: "Hospitality",
         link: "/cac-dong-san-pham/cua-thong-phong-wpcabsgo.html"
     },
     {
-        image: "/FileUpload/Images/cuachongchay.png",
-        name: "CỬA CHỐNG CHÁY EI60/90/120",
+        image: "/FileUpload/Images/marcinjozwiak-production-4408573_1920.jpg",
+        name: "Industrial",
         link: "/cac-dong-san-pham/cua-chong-chay-ei6090120.html"
     },
     {
         image: "/FileUpload/Images/71.png",
-        name: "CỬA CUỐN CHỐNG CHÁY EI60-E90-E120",
+        name: "Land & Planning",
         link: "/cac-dong-san-pham/cua-cuon-chong-chay-ei60-e90-e120.html"
     },
     {
         image: "/FileUpload/Images/galaxycurtains2025_6.jpg",
-        name: "RÈM NGĂN CHÁY EI60-EI90",
+        name: "Amenities & Landscape",
         link: "/cac-dong-san-pham/rem-ngan-chay-ei60-ei90.html"
     }
 ];
@@ -212,9 +211,9 @@ const newsItems = [
 
 // Dữ liệu "Sản phẩm, Giải pháp mới"
 const infoPro = {
-    title: "Sản phẩm, Giải pháp mới",
-    description: "MỘC MỘC DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
-    link: "/truyen-thong/san-pham-giai-phap-moi/galaxy-doors-da-co-mat-tai-91-an-duong-vuong-tp-hue-20192020195.html"
+    title: "Cơ hội Đầu tư",
+    description: "MỘC MỘC ESTATE: RA MẮT CĂN HỘ CAO CẤP TẠI TP. HUẾ - ƯU ĐÃI GIAI ĐOẠN 1",
+    link: "/du-an/can-ho-cao-cap/ra-mat-du-an-moi-tp-hue.html"
 };
 
 // Render tin tức ra HTML
