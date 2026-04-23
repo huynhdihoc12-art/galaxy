@@ -1,0 +1,5 @@
+/* Import all theme CSS */
+@import './css/slide.css';
+@import './css/desktop.css';
+@import './css/style.css';
+@import './css/animation.css';
