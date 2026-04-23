@@ -2,12 +2,12 @@
 const companyInfo = {
     bgImage: "/FileUpload/Images/bg2_2.jpg",
     sideImage: "/Content/theme_btq/pictures/background/bg2.jpg",
-    titleBold: "Galaxy",
+    titleBold: "Mộc Mộc",
     titleNormal: " Vietnam",
     greeting: "Kính gửi Quý khách hàng,",
     paragraphs: [
-        "Galaxy Việt Nam cung cấp giải pháp toàn diện về cửa và nội thất, phân phối đa kênh tại thị trường Việt Nam với 2 thương hiệu Galaxy Door, Galaxy Concept.",
-        "Hiện tại, Galaxy Việt Nam vận hành nhà máy diện tích 30.000m2 ứng dụng dây truyền công nghệ Nhật Bản, tạo ra năng lực khả cung hơn 350,000m2 sản phẩm cửa/năm và 200,000m2 sản phẩm nội thất cho thị trường Việt Nam..."
+        "MỘC MỘC Việt Nam cung cấp giải pháp toàn diện về cửa và nội thất, phân phối đa kênh tại thị trường Việt Nam với 2 thương hiệu MỘC MỘC Door, MỘC MỘC Concept.",
+        "Hiện tại, MỘC MỘC Việt Nam vận hành nhà máy diện tích 30.000m2 ứng dụng dây truyền công nghệ Nhật Bản, tạo ra năng lực khả cung hơn 350,000m2 sản phẩm cửa/năm và 200,000m2 sản phẩm nội thất cho thị trường Việt Nam..."
     ],
     detailLink: "/gioi-thieu-ve-galaxy-door/gioi-thieu-1.html"
 };
@@ -48,37 +48,37 @@ const bannerSlides = [
         image: "/FileUpload/Images/bg13.jpg",
         titleNormal: "Khả cung ",
         titleBold: "vượt trội",
-        description: "Galaxy Door vận hành 01 nhà máy diện tích 2ha, hơn 300 nhân sự, tạo ra năng lực khả cung hơn 350.000 m2 sản phẩm/năm cho thị trường Việt Nam và phụ cận."
+        description: "MỘC MỘC Door vận hành 01 nhà máy diện tích 2ha, hơn 300 nhân sự, tạo ra năng lực khả cung hơn 350.000 m2 sản phẩm/năm cho thị trường Việt Nam và phụ cận."
     },
     {
         image: "/FileUpload/Images/galaxydoorsgalaxyconceptbannerhome2025_5.jpg",
         titleNormal: "Giải pháp ",
         titleBold: "toàn diện",
-        description: "Galaxy Door là đơn vị sản xuất, cung cấp giải pháp toàn diện về cửa và thi công uy tín hàng đầu Việt Nam."
+        description: "MỘC MỘC Door là đơn vị sản xuất, cung cấp giải pháp toàn diện về cửa và thi công uy tín hàng đầu Việt Nam."
     },
     {
         image: "/FileUpload/Images/galaxydoorszalo_1280x720px.jpg",
         titleNormal: "Phân phối ",
         titleBold: "bán lẻ",
-        description: "Galaxy Door trực tiếp sản xuất và thi công dự án xây dựng trọng điểm, thúc đẩy phân phối bán lẻ thông qua hơn 100 Đại lý trên toàn quốc."
+        description: "MỘC MỘC Door trực tiếp sản xuất và thi công dự án xây dựng trọng điểm, thúc đẩy phân phối bán lẻ thông qua hơn 100 Đại lý trên toàn quốc."
     },
     {
         image: "/FileUpload/Images/greendiamondgalaxydoorsbannerwebgalaxy.JPG",
         titleNormal: "Thi công ",
         titleBold: "Dự án",
-        description: "Galaxy Door có gần 20 năm kinh nghiệm cung cấp giải pháp toàn diện về cửa và thi công hơn 60% các dự án xây dựng lớn tại Việt Nam."
+        description: "MỘC MỘC Door có gần 20 năm kinh nghiệm cung cấp giải pháp toàn diện về cửa và thi công hơn 60% các dự án xây dựng lớn tại Việt Nam."
     },
     {
         image: "/FileUpload/Images/galaxydoorsgalaxyconceptbannerhome2025_1.jpg",
         titleNormal: "Dịch vụ ",
         titleBold: "xuất sắc",
-        description: "Galaxy Door không chỉ đầu tư vào chất lượng sản phẩm, giải pháp đồng bộ, cam kết sứ mệnh thương hiệu mà còn tập trung phát triển khách hàng, mở rộng thị trường để chuỗi cung ứng cùng phát triển bền vững!"
+        description: "MỘC MỘC Door không chỉ đầu tư vào chất lượng sản phẩm, giải pháp đồng bộ, cam kết sứ mệnh thương hiệu mà còn tập trung phát triển khách hàng, mở rộng thị trường để chuỗi cung ứng cùng phát triển bền vững!"
     },
     {
         image: "/FileUpload/Images/thestandarbinhduonggalaxydoors_6.JPG",
         titleNormal: "Chất lượng ",
         titleBold: "đồng bộ",
-        description: "Tất cả các sản phẩm cửa chất liệu thép của Galaxy Door đã được Cục Cảnh sát Phòng cháy Chữa cháy kiểm định và xác nhận đạt tiêu chuẩn chống cháy TCXDVN 368;2007 tương đương với tiêu chuẩn Anh BS EN 1634-2000."
+        description: "Tất cả các sản phẩm cửa chất liệu thép của MỘC MỘC Door đã được Cục Cảnh sát Phòng cháy Chữa cháy kiểm định và xác nhận đạt tiêu chuẩn chống cháy TCXDVN 368;2007 tương đương với tiêu chuẩn Anh BS EN 1634-2000."
     }
 ];
 
@@ -200,12 +200,12 @@ if (sliderProject) {
 const newsItems = [
     {
         image: "/FileUpload/Images/phuoc_thinh_tai_91_an_duong_vuong_tp_hue_1.jpg",
-        title: "GALAXY DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
+        title: "MỘC MỘC DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
         link: "/truyen-thong/khuyen-mai-uu-dai/galaxy-doors-da-co-mat-tai-91-an-duong-vuong-tp-hue-20192020195.html"
     },
     {
         image: "/FileUpload/Images/cafebizhinh_1_canh_cua_mo_ra_khong_gian_song_tai_khu_do_thi_watterpoint_nam_long.jpg",
-        title: "GALAXY KỂ CHUYỆN VẺ ĐẸP VỀ CỬA VÀ NỘI THẤT",
+        title: "MỘC MỘC KỂ CHUYỆN VẺ ĐẸP VỀ CỬA VÀ NỘI THẤT",
         link: "/truyen-thong/khuyen-mai-uu-dai/galaxy-ke-chuyen-ve-dep-ve-cua-va-noi-that-20192020194.html"
     }
 ];
@@ -213,7 +213,7 @@ const newsItems = [
 // Dữ liệu "Sản phẩm, Giải pháp mới"
 const infoPro = {
     title: "Sản phẩm, Giải pháp mới",
-    description: "GALAXY DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
+    description: "MỘC MỘC DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
     link: "/truyen-thong/san-pham-giai-phap-moi/galaxy-doors-da-co-mat-tai-91-an-duong-vuong-tp-hue-20192020195.html"
 };
 
