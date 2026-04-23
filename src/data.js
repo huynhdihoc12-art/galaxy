@@ -3,7 +3,7 @@ const companyInfo = {
     bgImage: "/FileUpload/Images/bg2_2.jpg",
     sideImage: "/Content/theme_btq/pictures/background/bg2.jpg",
     titleBold: "MocMoc",
-    titleNormal: "Door",
+    titleNormal: "Real Estate",
     greeting: "Kính gửi Quý khách hàng,",
     paragraphs: [
         "MỘC MỘC Real Estate là đơn vị tiên phong trong lĩnh vực phát triển và phân phối các dự án bất động sản trung và cao cấp, mang lại không gian sống đẳng cấp cho cộng đồng.",
@@ -199,7 +199,7 @@ if (sliderProject) {
 const newsItems = [
     {
         image: "/FileUpload/Images/phuoc_thinh_tai_91_an_duong_vuong_tp_hue_1.jpg",
-        title: "MỘC MỘC DOORS ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
+        title: "MỘC MỘC Real Estate ĐÃ CÓ MẶT TẠI 91 AN DƯƠNG VƯƠNG, TP. HUẾ",
         link: "/truyen-thong/khuyen-mai-uu-dai/galaxy-doors-da-co-mat-tai-91-an-duong-vuong-tp-hue-20192020195.html"
     },
     {

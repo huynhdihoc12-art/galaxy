@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-     width="283.372px" height="59.982px" viewBox="0 0 283.372 59.982"
+     width="350px" height="60px" viewBox="0 0 350 60"
      xml:space="preserve">
 
-  <!-- MOCMOC - nghiêng mạnh như Galaxy, font condensed bold -->
+  <!-- MOCMOC - Màu đỏ truyền thống, mạnh mẽ -->
   <text
     x="2"
     y="44"
@@ -15,15 +15,15 @@
     fill="#98272B"
     transform="scale(1, 0.85)">MOCMOC</text>
 
-  <!-- doors - màu tối, chữ thường, spacing rộng, căn phải -->
+  <!-- Real Estate - Màu đen, hiện đại, rõ nét -->
   <text
-    x="145"
-    y="58"
+    x="155"
+    y="55"
     font-family="'Arial', sans-serif"
     font-weight="400"
     font-style="italic"
-    font-size="13"
-    letter-spacing="6"
-    fill="#333333">doors</text>
+    font-size="14"
+    letter-spacing="2"
+    fill="#000000">Real Estate</text>
 
 </svg>
